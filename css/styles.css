@@ -1,0 +1,91 @@
+body {
+  background-image: radial-gradient(red, aqua);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+ 
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  flex: auto;
+}
+h4 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  flex: auto;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.estilocabecalho {
+  margin: 0 auto;
+}
+
+
+header:hover{
+  cursor: pointer;
+  color: rgb(227, 15, 15);
+}
+ 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.img-size{
+  width: 680px;
+  height: auto;
+}
+
+.links a:hover {
+  color: #ffffff;
+}
+
+.links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00fff2;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1000; /* Isso coloca os links em cima de outros elementos */
+}
+
+.links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
